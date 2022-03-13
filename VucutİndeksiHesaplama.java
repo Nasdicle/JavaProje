@@ -9,10 +9,10 @@ public static void main(String[] args)
   
   Scanner input = new Scanner();
   System.out.printIn("Lütfen boyunuzu (metre cinsinde) giriniz: ");
-  boy = input.nextDouble;
+  boy = input.nextDouble();
   
   System.out.printIn("Lütfen kilonuzu giriniz: ");
-  kilo = input.nextDouble;
+  kilo = input.nextDouble();
   
   indeks = kilo / (boy * boy);
   System.out.printIn("Vücut Kitle İndeksiniz: " + indeks);
